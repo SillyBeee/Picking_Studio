@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<package>
+  <name>Picking_Studio</name>
+  <version>1.0.0</version>
+  <description>Picking Studio for robotic manipulation tasks</description>
+  <maintainer email="3576527475a@gmail.com">MaHuaCheng</maintainer>
+  <license>TODO</license>
+
+  <author>MaHuaCheng</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>rospy</run_depend>
+
+  <build_depend>tf</build_depend>
+  <run_depend>tf</run_depend>
+
+  <build_depend>cv_bridge</build_depend>
+  <run_depend>cv_bridge</run_depend>
+
+  <build_depend>pcl_ros</build_depend>
+  <run_depend>pcl_ros</run_depend>
+
+  <build_depend>pcl_conversions</build_depend>
+  <run_depend>pcl_conversions</run_depend>
+
+  <build_depend>std_msgs</build_depend>
+  <run_depend>std_msgs</run_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <build_depend>nav_msgs</build_depend>
+  <run_depend>nav_msgs</run_depend>
+
+  <build_depend>dangkang_picking_msgs</build_depend>
+  <run_depend>dangkang_picking_msgs</run_depend>
+
+  <build_depend>dangkang_msgs</build_depend>
+  <run_depend>dangkang_msgs</run_depend>
+  
+  <!-- <build_depend>hy_hardware_interface</build_depend>
+  <run_depend>hy_hardware_interface</run_depend>
+   <build_depend>hy_manipulation_controllers</build_depend>
+  <run_depend>hy_manipulation_controllers</run_depend> -->
+  <build_depend>hy_manipulation_applications</build_depend>
+  <run_depend>hy_manipulation_applications</run_depend>
+</package>
